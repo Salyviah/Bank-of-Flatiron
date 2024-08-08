@@ -83,6 +83,52 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2024-08-08",
+      "description": "paycheck from sally",
+      "category": "food",
+      "amount": "2000",
+      "id": 13
+    },
+    {
+      "date": "2019-01-12",
+      "description": "paycheck from Bob's Burgers",
+      "amount": "1000",
+      "id": 14
+    },
+    {
+      "date": "2024-08-08",
+      "description": "paycheck for sally",
+      "amount": "105",
+      "id": 15
+    },
+    {
+      "date": "2024-08-08",
+      "description": "Paycheck from Bob's Burgers",
+      "amount": "1000",
+      "id": 16
+    },
+    {
+      "id": "05b67a2b-1003-4f0f-9bbe-007e5ded21f4",
+      "date": "2024-08-08",
+      "description": "paycheck from sally",
+      "category": "food",
+      "amount": 0.04
+    },
+    {
+      "id": "d2c6b756-135b-41ef-9020-cb28bebb7880",
+      "date": "2024-08-08",
+      "description": "paycheck from sally",
+      "category": "food",
+      "amount": -0.82
+    },
+    {
+      "date": "2024-08-08",
+      "description": "sally paycheck",
+      "category": "fashion",
+      "amount": "260",
+      "id": 17
     }
   ]
 }

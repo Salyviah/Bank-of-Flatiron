@@ -1,10 +1,13 @@
 import React from "react";
-import Transaction from "./Transaction";
 
-function TransactionsList() {
+function TransactionsList({ transactions }) {
+  if (!transactions || transactions.length === 0) {
+    return <p>No transactions available.</p>;
+  }
+
   return (
     <table className="ui celled striped padded table">
-      <tbody>
+      <thead>
         <tr>
           <th>
             <h3 className="ui center aligned header">Date</h3>
@@ -19,7 +22,16 @@ function TransactionsList() {
             <h3 className="ui center aligned header">Amount</h3>
           </th>
         </tr>
-        {/* render a list of <Transaction> components here */}
+      </thead>
+      <tbody>
+        {transactions.map((transaction) => (
+          <tr key={transaction.id}>
+            <td>{transaction.date}</td>
+            <td>{transaction.description}</td>
+            <td>{transaction.category}</td>
+            <td>{transaction.amount}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );
