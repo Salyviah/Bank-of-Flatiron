@@ -23,7 +23,7 @@ function AccountContainer() {
       },
       body: JSON.stringify(newTransaction),
     })
-      .then((response) => response.json())
+      .then((res) => res.json())
       .then((data) => {
         setTransactions((prevTransactions) => [...prevTransactions, data]);
       });
